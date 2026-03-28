@@ -6,11 +6,14 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am currently co-founder of CallHQ.ai, building real-time voice AI for
-          businesses. I am a technologist at heart with strong business judgment—
-          I enjoy going from product strategy to hands-on engineering. My background
-          spans leadership at Adobe, founding Broki and CallHQ, and shipping
-          full-stack products end to end.
+          Results-oriented Business Data Analyst with an MS in Business
+          Analytics and deep expertise in SQL, Python, Tableau, Power BI, and
+          AWS. Proven track record of building scalable ETL pipelines,
+          predictive models, and automated reporting dashboards that delivered
+          over $1.5M in cost savings and cut reporting turnaround time by 30%.
+          Experienced in translating complex datasets into executive-level
+          business insights across Agile environments with strong stakeholder
+          management and data storytelling.
         </p>
       </div>
     </div>

@@ -15,59 +15,93 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>Business Data Analyst</h4>
+                <h5>Kaiser Permanente · Pasadena, CA</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Developed ARIMA and Prophet time series forecasting models in
+              Python to predict call center staffing demand, achieving a 12%
+              reduction in SLA breaches. Designed SQL pipelines feeding
+              real-time Tableau dashboards for executive KPI monitoring.
+              Automated weekly reporting workflows, cutting manual effort by
+              30%, and identified $162K in operational savings through
+              workforce capacity analysis.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Data Analyst</h4>
+                <h5>Amazon · Bengaluru, IN</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>2023–24</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Led a Data Quality and Governance initiative using SQL and
+              GeoStudio to cleanse and standardize geospatial address datasets,
+              improving last-mile delivery accuracy. Delivered $1.5M+ in annual
+              operational savings by resolving large-scale data quality defects.
+              Built Tableau KPI dashboards for real-time SLA compliance tracking
+              and collaborated across engineering and operations in an Agile
+              framework using Jira.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Data Analyst</h4>
+                <h5>Ernst &amp; Young (EY) · Bengaluru, IN</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>2022–23</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Built enterprise-grade Power BI dashboards with advanced DAX,
+              drill-through reports, and dynamic slicers, reducing client
+              dependency on manual reporting by 40%. Deployed end-to-end ETL
+              pipelines from SharePoint and SQL Server. Automated repetitive
+              workflows using Power Automate and PowerApps, saving 15+ hours
+              per week across cross-functional teams.
             </p>
           </div>
-          <div className="career-info-box">
-            <div className="career-info-in">
-              <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
-              </div>
-              <h3>2013-16</h3>
+        </div>
+        <div className="career-education">
+          <h2>
+            Education <span>&</span>
+            <br /> background
+          </h2>
+          <div className="career-info">
+            <div className="career-timeline">
+              <div className="career-dot"></div>
             </div>
-            <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
-            </p>
+            <div className="career-info-box">
+              <div className="career-info-in">
+                <div className="career-role">
+                  <h4>MS, Business Analytics</h4>
+                  <h5>University of California, Irvine</h5>
+                </div>
+                <h3>2025</h3>
+              </div>
+              <p>
+                VP of Operations, Merage Analytics Club. Coursework spanning
+                machine learning, data engineering, statistical modeling,
+                and business strategy.
+              </p>
+            </div>
+            <div className="career-info-box">
+              <div className="career-info-in">
+                <div className="career-role">
+                  <h4>BTech, Electronics &amp; Communication</h4>
+                  <h5>Christ University, Bengaluru</h5>
+                </div>
+                <h3>2022</h3>
+              </div>
+              <p>
+                Head of the Student Welfare Organisation. Member, IEEE
+                Community.
+              </p>
+            </div>
           </div>
         </div>
       </div>
