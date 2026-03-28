@@ -144,6 +144,44 @@ const WhatIDo = () => {
               <div className="what-arrow"></div>
             </div>
           </div>
+          <div
+            className="what-content what-noTouch"
+            ref={(el) => setRef(el, 2)}
+          >
+            <div className="what-border1">
+              <svg height="100%">
+                <line
+                  x1="0"
+                  y1="100%"
+                  x2="100%"
+                  y2="100%"
+                  stroke="white"
+                  strokeWidth="2"
+                  strokeDasharray="6,6"
+                />
+              </svg>
+            </div>
+            <div className="what-corner"></div>
+            <div className="what-content-in">
+              <h3>AUTOMATION &amp; AI</h3>
+              <h4>Intelligent Workflows and Agent Systems</h4>
+              <p>
+                I design and deploy end-to-end automation pipelines and AI
+                agent systems—connecting tools, APIs, and LLMs to eliminate
+                manual work and drive operational efficiency.
+              </p>
+              <h5>Skillset & tools</h5>
+              <div className="what-content-flex">
+                <div className="what-tags">n8n</div>
+                <div className="what-tags">AI Agents</div>
+                <div className="what-tags">LLM Integration</div>
+                <div className="what-tags">Workflow Automation</div>
+                <div className="what-tags">API Orchestration</div>
+                <div className="what-tags">Process Design</div>
+              </div>
+              <div className="what-arrow"></div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

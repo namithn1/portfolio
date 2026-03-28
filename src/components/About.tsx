@@ -11,9 +11,9 @@ const About = () => {
           AWS. Proven track record of building scalable ETL pipelines,
           predictive models, and automated reporting dashboards that delivered
           over $1.5M in cost savings and cut reporting turnaround time by 30%.
-          Experienced in translating complex datasets into executive-level
-          business insights across Agile environments with strong stakeholder
-          management and data storytelling.
+          Experienced in process automation and AI agent development—designing
+          intelligent workflows with n8n and LLM integrations to eliminate
+          manual operations and accelerate decision-making across teams.
         </p>
       </div>
     </div>
