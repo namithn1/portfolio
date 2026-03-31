@@ -15,19 +15,20 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Business Data Analyst</h4>
+                <h4>Data Analyst</h4>
                 <h5>Kaiser Permanente · Pasadena, CA</h5>
               </div>
               <h3>2025</h3>
             </div>
             <p>
-              Developed ARIMA and Prophet time series forecasting models in
-              Python to predict call center staffing demand, achieving a 12%
-              reduction in SLA breaches. Designed SQL pipelines feeding
-              real-time Tableau dashboards for executive KPI monitoring.
-              Automated weekly reporting workflows, cutting manual effort by
-              30%, and identified $162K in operational savings through
-              workforce capacity analysis.
+              Built ARIMA and Prophet forecasting models in Python to predict
+              call center staffing demand across 10+ departments, cutting SLA
+              breaches by 12%. Engineered automated SQL pipelines feeding
+              real-time Tableau KPI dashboards for 50+ business users,
+              eliminating manual reporting and reducing turnaround time by 60%.
+              Streamlined recurring reporting workflows in Python, reducing
+              analyst effort by 30%, and uncovered $162K in annual savings
+              through workforce capacity analysis.
             </p>
           </div>
           <div className="career-info-box">
@@ -39,13 +40,14 @@ const Career = () => {
               <h3>2023–24</h3>
             </div>
             <p>
-              Led a Data Quality and Governance initiative using SQL and
-              GeoStudio to cleanse and standardize geospatial address datasets,
-              improving last-mile delivery accuracy. Delivered $1.5M+ in annual
-              operational savings by resolving large-scale data quality defects.
-              Built Tableau KPI dashboards for real-time SLA compliance tracking
-              and collaborated across engineering and operations in an Agile
-              framework using Jira.
+              Spearheaded a data quality and governance initiative using SQL
+              and GeoStudio to clean, deduplicate, and standardize 10M+
+              address records, improving last-mile delivery accuracy and
+              generating $1.5M+ in annual savings. Deployed automated SQL
+              validation scripts to eliminate recurring data integrity
+              incidents. Collaborated cross-functionally in Agile sprints using
+              Jira, owning data deliverables end-to-end from sprint planning
+              through UAT sign-off.
             </p>
           </div>
           <div className="career-info-box">
@@ -57,12 +59,13 @@ const Career = () => {
               <h3>2022–23</h3>
             </div>
             <p>
-              Built enterprise-grade Power BI dashboards with advanced DAX,
-              drill-through reports, and dynamic slicers, reducing client
-              dependency on manual reporting by 40%. Deployed end-to-end ETL
-              pipelines from SharePoint and SQL Server. Automated repetitive
-              workflows using Power Automate and PowerApps, saving 15+ hours
-              per week across cross-functional teams.
+              Delivered 20+ enterprise Power BI dashboards with advanced DAX,
+              drill-through reports, and dynamic slicers for financial services
+              clients, reducing manual reporting dependency by 40%. Implemented
+              end-to-end ETL pipelines using Azure Data Factory and SQL Server.
+              Automated reporting workflows across 3 business units using Power
+              Automate and PowerApps, saving 15+ hours per week and reducing
+              error rates by 25%.
             </p>
           </div>
         </div>

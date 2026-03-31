@@ -6,14 +6,13 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          Results-oriented Business Data Analyst with an MS in Business
-          Analytics and deep expertise in SQL, Python, Tableau, Power BI, and
-          AWS. Proven track record of building scalable ETL pipelines,
-          predictive models, and automated reporting dashboards that delivered
-          over $1.5M in cost savings and cut reporting turnaround time by 30%.
-          Experienced in process automation and AI agent development—designing
-          intelligent workflows with n8n and LLM integrations to eliminate
-          manual operations and accelerate decision-making across teams.
+          AI Business Data Analyst with 3+ years turning messy data into
+          decisions that stick. I work across SQL, Python, Tableau, Power BI,
+          and AWS—building ETL pipelines, forecasting models, and dashboards
+          that have driven $1.5M+ in savings. Outside of traditional analytics,
+          I build AI agent pipelines and automation workflows using n8n, LLMs,
+          and tools like Power Automate and Zapier to cut manual work and
+          accelerate how teams operate.
         </p>
       </div>
     </div>
