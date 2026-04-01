@@ -180,6 +180,45 @@
   box-shadow: 0 0 8px rgba(94, 234, 212, 0.4);
 }
 
+/* ── Project Card ── */
+.project-card-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-card {
+  transition: opacity 0.3s ease;
+}
+
+.project-card-link:hover .project-card {
+  opacity: 0.85;
+}
+
+.project-description {
+  font-weight: 200;
+  color: #adacac;
+  margin: 10px 0 0;
+  font-size: 15px;
+  line-height: 1.7;
+  max-width: 680px;
+}
+
+.project-cta {
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--accentColor);
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s ease;
+}
+
+.project-card-link:hover .project-cta {
+  border-bottom-color: var(--accentColor);
+}
+
 /* ── Work Image (reused) ── */
 .work-image {
   display: flex;
