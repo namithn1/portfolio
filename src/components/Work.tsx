@@ -10,6 +10,15 @@ const projects = [
     tools: "dbt · Snowflake · AWS S3 · SQL · Python",
     href: "https://github.com/namithn1/airbnb-dbt-snowflake",
   },
+  {
+    number: "02",
+    title: "FMCG Lakehouse — Databricks & Delta Lake",
+    category: "Data Engineering · Lakehouse",
+    description:
+      "Enterprise M&A data integration pipeline consolidating two companies' sales data into a unified Databricks Lakehouse. Implements a full Medallion Architecture (Bronze → Silver → Gold) with 30+ data quality fixes — city typos, mixed date formats, negative prices, SHA-256 surrogate keys — and a smart incremental load strategy that re-aggregates affected months to prevent double-counting. Gold layer exposes a star schema and enriched view powering a BI dashboard and Databricks Genie for natural-language querying.",
+    tools: "Databricks · PySpark · Delta Lake · Unity Catalog · AWS S3 · SQL",
+    href: "https://github.com/namithn1/fmcg-databricks-pipeline",
+  },
 ];
 
 const Work = () => {
