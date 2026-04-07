@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./styles/Work.css";
 
 const projects = [
@@ -68,8 +68,18 @@ const CARDS_PER_PAGE = 3;
 
 const Work = () => {
   const [page, setPage] = useState(0);
+  const [fading, setFading] = useState(false);
+  const gridRef = useRef<HTMLDivElement>(null);
   const totalPages = Math.ceil(projects.length / CARDS_PER_PAGE);
   const visible = projects.slice(page * CARDS_PER_PAGE, (page + 1) * CARDS_PER_PAGE);
+
+  const changePage = (next: number) => {
+    setFading(true);
+    setTimeout(() => {
+      setPage(next);
+      setFading(false);
+    }, 220);
+  };
 
   return (
     <div className="work-section" id="work">
@@ -77,7 +87,7 @@ const Work = () => {
         <h2>
           My <span>Work</span>
         </h2>
-        <div className="project-grid">
+        <div className={`project-grid${fading ? " project-grid--fade" : ""}`} ref={gridRef}>
           {visible.map((project) => (
             <a
               key={project.number}
@@ -109,7 +119,7 @@ const Work = () => {
         <div className="work-nav">
           <button
             className="work-nav-btn"
-            onClick={() => setPage((p) => p - 1)}
+            onClick={() => changePage(page - 1)}
             disabled={page === 0}
             aria-label="Previous projects"
           >
@@ -120,14 +130,14 @@ const Work = () => {
               <button
                 key={i}
                 className={`work-nav-dot${i === page ? " active" : ""}`}
-                onClick={() => setPage(i)}
+                onClick={() => changePage(i)}
                 aria-label={`Go to page ${i + 1}`}
               />
             ))}
           </div>
           <button
             className="work-nav-btn"
-            onClick={() => setPage((p) => p + 1)}
+            onClick={() => changePage(page + 1)}
             disabled={page === totalPages - 1}
             aria-label="Next projects"
           >

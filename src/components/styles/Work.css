@@ -26,6 +26,14 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 24px;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.22s ease, transform 0.22s ease;
+}
+
+.project-grid--fade {
+  opacity: 0;
+  transform: translateY(10px);
 }
 
 /* ── Work Navigation ── */
@@ -102,7 +110,10 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
-  transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+  transition: transform 0.35s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+              border-color 0.35s ease,
+              box-shadow 0.35s ease,
+              background 0.35s ease;
   cursor: pointer;
 }
 
@@ -183,6 +194,13 @@
   border-radius: 20px;
   padding: 3px 10px;
   letter-spacing: 0.3px;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+
+.project-card-link:hover .tool-tag {
+  background: rgba(94, 234, 212, 0.07);
+  border-color: rgba(94, 234, 212, 0.25);
+  color: #c8f5ef;
 }
 
 .project-cta {

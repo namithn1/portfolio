@@ -38,6 +38,17 @@ const Navbar = () => {
     window.addEventListener("resize", () => {
       ScrollSmoother.refresh(true);
     });
+
+    const header = document.querySelector(".header");
+    const onScroll = () => {
+      if (window.scrollY > 60) {
+        header?.classList.add("scrolled");
+      } else {
+        header?.classList.remove("scrolled");
+      }
+    };
+    window.addEventListener("scroll", onScroll);
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
   return (
     <>
