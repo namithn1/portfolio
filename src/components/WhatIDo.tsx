@@ -91,8 +91,8 @@ const WhatIDo = () => {
               <h4>Turning Raw Data into Decisions</h4>
               <p>
                 I build dashboards, ETL pipelines, and forecasting models that
-                give organizations a clear picture of performance—so decisions
-                are driven by data, not guesswork.
+                help organizations see what's actually going on. The goal is
+                always the same: get to the insight fast and make it useful.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -128,9 +128,9 @@ const WhatIDo = () => {
               <h3>ML &amp; FORECASTING</h3>
               <h4>Predictive Models for Business Impact</h4>
               <p>
-                I develop machine learning and statistical models for
-                forecasting, segmentation, and optimization—translating complex
-                analysis into actionable business outcomes.
+                I build predictive models for forecasting, segmentation, and
+                optimization. The focus is on turning the output into something
+                a stakeholder can actually act on.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -166,9 +166,9 @@ const WhatIDo = () => {
               <h3>AUTOMATION &amp; AI</h3>
               <h4>Intelligent Workflows and Agent Systems</h4>
               <p>
-                I design and deploy end-to-end automation pipelines and AI
-                agent systems—connecting tools, APIs, and LLMs to eliminate
-                manual work and drive operational efficiency.
+                I build automation pipelines and AI agent systems that connect
+                tools, APIs, and LLMs. If a process is repetitive and rule-based,
+                it probably shouldn't need a person doing it.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
