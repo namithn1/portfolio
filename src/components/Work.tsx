@@ -44,6 +44,16 @@ const projects = [
   },
   {
     number: "05",
+    title: "Customer Segmentation: Sun Country Airlines",
+    category: "Machine Learning · Business Analytics",
+    description:
+      "K-Means clustering analysis on Sun Country Airlines' booking data to identify five distinct customer segments — corporate travelers, premium direct bookers, young spontaneous travelers, price-conscious loyalists, and frequent MSP flyers. Delivered tailored marketing and loyalty program recommendations to airline executives, driving targeted engagement and revenue strategies.",
+    tools: ["Python", "Scikit-learn", "Pandas", "Seaborn", "K-Means Clustering", "Tableau"],
+    href: "/sun-country-customer-segmentation.pdf",
+    cta: "View Report",
+  },
+  {
+    number: "06",
     title: "Tableau Public Dashboards",
     category: "Data Visualization · Dashboards",
     description:
